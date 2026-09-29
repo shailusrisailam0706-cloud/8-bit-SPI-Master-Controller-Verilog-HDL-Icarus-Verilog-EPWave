@@ -110,3 +110,11 @@ The simulation waveforms were checked for:
 ## Result
 
 The SPI Master Controller was successfully simulated and verified using the developed testbench, with the expected SPI control signals and serial data transmission observed in the simulation waveforms.
+
+## Simulation Waveform
+
+The SPI Master Controller was verified through behavioral simulation.
+The waveform shows the system clock, reset, start signal, SPI clock,
+chip-select, MOSI/MISO data transfer, busy and done signals during
+8-bit SPI communication.
+
